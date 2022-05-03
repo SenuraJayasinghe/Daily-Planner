@@ -96,10 +96,13 @@ h3 {
 }
 
 .goal {
-  background-color: #f4f4f4;
+  background-color: #f6ebf4;
   margin: 10px 0;
-  padding: 20px 0 10px;
+  padding: 10px  10px;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(5, 5, 5, 0.3);
+  
 }
 
 .goal .close {
@@ -189,7 +192,7 @@ h3 {
   width: 64px;
   height: 64px;
   border: 8px solid;
-  border-color: #000 transparent #555 transparent;
+  border-color: #482673 transparent rgb(152, 139, 139) transparent;
   border-radius: 50%;
   animation: spin 1.2s linear infinite;
 }
