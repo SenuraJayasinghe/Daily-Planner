@@ -9,11 +9,14 @@
 body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
+  color:#482673;
+  background-color: #f6ebf4;
+ 
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #482673;
 }
 
 p {
@@ -68,7 +71,7 @@ h3 {
 }
 
 .header ul li a:hover {
-  color: #777;
+  color: #ab47bc;
 }
 
 .header ul li a svg {
@@ -83,7 +86,7 @@ h3 {
 }
 
 .heading p {
-  color: #828282;
+  color: #ab47bc;
 }
 
 .goals {
@@ -137,9 +140,9 @@ h3 {
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid #000;
+  border: 1px solid #482673;
   border-radius: 5px;
-  background: #000;
+  background: #482673;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
