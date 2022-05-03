@@ -4,11 +4,11 @@
   "description": "surge assignment",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "serve -s build",
     "server": "nodemon backend/server.js",
-    "client": "npm start --prefix frontend ",
-       "dev": "concurrently \"npm run server\" \"npm run client\"",
-       "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"  
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "senura jayasinghe",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.2",
+    "serve": "^13.0.2",
     "uninstall": "^0.0.0"
   },
   "devDependencies": {

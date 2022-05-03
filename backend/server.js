@@ -2,7 +2,6 @@ const path = require('path');
 const express =  require('express');
 const dotenv =  require('dotenv').config();
 const bodyParser = require("body-parser");
-const cors = require("cors");
 const colors = require('colors');
 const {errHandler, errorHandler} = require('./middleware/errorMiddleware')
 const connectDB = require('./config/db')
