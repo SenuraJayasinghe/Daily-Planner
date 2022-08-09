@@ -4,7 +4,7 @@ const goalSchema = mongoose.Schema({
     user:{
        type: mongoose.Schema.Types.ObjectId,
        required: true,
-       ref: 'USer'
+       ref: 'User'
     },
     text:{
     type: String,

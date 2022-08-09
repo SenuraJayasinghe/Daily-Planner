@@ -45,7 +45,7 @@ const registerUser = asyncHandler(async (req, res) =>{
 })
 
 
-// Login USer
+// Login User
 const loginUser = asyncHandler(async (req, res) => {
     const { email, password } = req.body
   
